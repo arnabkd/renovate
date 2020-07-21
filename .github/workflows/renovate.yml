@@ -5,7 +5,7 @@ on:
     # string has to be quoted.
     # Run this 5-7 UTC time (7-9 AM Oslo time) on weekdays
     # See: https://crontab.guru/
-    - cron: '* * * * 2'
+    - cron: '*/5 * * * *'
 jobs:
   renovate:
     runs-on: ubuntu-latest
