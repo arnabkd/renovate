@@ -19,7 +19,7 @@ jobs:
         timeout-minutes: 5
         uses: renovatebot/github-action@v21.30.0
         with:
-          configurationFile: renovate-config-java.js
+          configurationFile: config-java.js
           token: ${{ secrets.RENOVATE_TOKEN }}
       - name: Slack Notification
         run: echo success
