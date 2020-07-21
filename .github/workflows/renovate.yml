@@ -16,7 +16,7 @@ jobs:
         # Since we run 9 times a day on weekdays, 
         # we use up a maximum total of 9*4*5*5 minutes = 900 minutes
         # Maximum limit for github actions time is 2000 minutes.
-        timeout-minutes: 2
+        timeout-minutes: 5
         uses: renovatebot/github-action@v21.30.0
         with:
           configurationFile: renovate-config-java.js
